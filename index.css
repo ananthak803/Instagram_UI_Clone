@@ -168,8 +168,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-self: center ;
-    width: 60%;
-    padding: 90px 10px ;
+    width: 80%;
+    padding: 50px 10px ;
 }
 .footerContainer1{
     display: flex;
@@ -222,3 +222,31 @@ footer{
     }
 }
 
+@media (min-width:451px) and (max-width:1279px){
+    .footerContainer1{
+        font-size: 12px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+   
+    .phoneContainer{
+        display: none;
+     }
+     footer{
+        width: 80%;
+     }
+}
+@media (max-height:500px){
+    footer{
+        display: none;
+    }
+}
+@media (min-width:1921px){
+    .main{
+        align-items: center;
+    }
+    .footerContainer1,.footerContainer2,#lang{
+        font-size: 30px;
+    }
+    
+}
